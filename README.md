@@ -10,11 +10,11 @@ The goal of this script is to prepare tidy data that can be used for later analy
 
 - The script assumes that all data is contained in a folder named "UCI HAR Dataset" containing two folders named "train" and "test".
 - The script reads in all raw data and merges similar data contained in the training and test folders using the rbind() function.
-- Unnecessary columns, as specified in the requirements, are dropped. Correct, comprehensable column names are added. 
+- Unnecessary columns, as specified in the requirements, are dropped. Correct, comprehensible column names are added. 
 - The labels for the activities performed while gathering the measurements are added in integer format as well as string format. 
 - The IDs for the subjects performing the measurements are added.
 - After the full dataset is created as specified in the requirements, we reshape the data using the melt() and dcast() functions to display the average for each variable for each activity and each subject. 
-- This tidy data is writen out to "tidy_data.txt".
+- This tidy data is written out to "tidy_data.txt".
 
 Annotations for what the functions do can be found in the script, to make reading the code easier.
 

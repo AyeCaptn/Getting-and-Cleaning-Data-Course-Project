@@ -49,7 +49,7 @@ allIDs <- c('SubjectID', 'ActivityID', 'ActivityLabel')
 allVariables <- setdiff(colnames(X_y_full), allIDs)
 X_y_fullMelt <-melt(X_y_full, id = allIDs, measure.vars = allVariables)
 
-# Create a seperate data set with the average of each variable for each activity and each subject.
+# Create a separate data set with the average of each variable for each activity and each subject.
 tidy_data = dcast(X_y_fullMelt, SubjectID + ActivityLabel ~ variable, mean)
 
 # Edit the column names to reflect that they hold the means

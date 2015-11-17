@@ -23,7 +23,7 @@ Variable description
 
 `y_full`: Contains the data from both `y_train` & `y_test`.
 
-`act_labels`: Contains the labels in a comprehendable string format instead of integers.
+`act_labels`: Contains the labels in a comprehensible string format instead of integers.
 
 `subject_train`: Contains a list of subjects performing the measurements for the training set.
 
