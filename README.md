@@ -1,6 +1,8 @@
 Getting and Cleaning Data: Course Project
 =========================================
 
+This repository hosts the files required for the submission of the "Course Project" for the "Getting and Cleaning Data" course available on Coursera.
+
 Description run_analysis.R
 --------------------------
 
