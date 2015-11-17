@@ -13,7 +13,8 @@ The goal of this script is to prepare tidy data that can be used for later analy
 - Unnecessary columns, as specified in the requirements, are dropped. Correct, comprehensible column names are added. 
 - The labels for the activities performed while gathering the measurements are added in integer format as well as string format. 
 - The IDs for the subjects performing the measurements are added.
-- After the full dataset is created as specified in the requirements, we reshape the data using the melt() and dcast() functions to display the average for each variable for each activity and each subject. 
+- After the full dataset is created as specified in the requirements, we reshape the data using the melt() and dcast() functions to display the average for each variable for each activity and each subject.
+- Correct column names are added to the tidy dataset to reflect the application of the mean function.
 - This tidy data is written out to "tidy_data.txt".
 
 Annotations for what the functions do can be found in the script, to make reading the code easier.
